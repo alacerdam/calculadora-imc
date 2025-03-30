@@ -11,6 +11,7 @@
     <TextView
         android:id="@+id/tv_result"
         android:textSize="52dp"
+        android:maxLength="5"
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
