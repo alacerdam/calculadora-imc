@@ -49,6 +49,11 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("KEY_RESULT_IMC", resultado)
                 startActivity(intent)
 
+
+                // cores
+                // edit text backkground + icone
+                // gradiente + titulo + icone + descricao
+
             }
 
         }
