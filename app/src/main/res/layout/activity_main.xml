@@ -22,6 +22,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         android:layout_width="match_parent"
+        app:hintEnabled="false"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +32,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_peso"
             android:layout_width="match_parent"
+            android:maxLength="6"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
             android:hint="Digite seu peso aqui ex: 70.20"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -40,6 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
@@ -48,8 +52,10 @@
 
             android:id="@+id/edt_altura"
             android:layout_width="match_parent"
+            android:maxLength="4"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
+            android:background="@drawable/rounded_bg"
             android:hint="Digite sua altura aqui ex: 1.70" />
 
     </com.google.android.material.textfield.TextInputLayout>
