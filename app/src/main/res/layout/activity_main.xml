@@ -31,6 +31,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_peso"
+            android:drawableEnd="@drawable/ic_weight"
             android:layout_width="match_parent"
             android:maxLength="6"
             android:layout_height="wrap_content"
@@ -51,6 +52,7 @@
         <com.google.android.material.textfield.TextInputEditText
 
             android:id="@+id/edt_altura"
+            android:drawableEnd="@drawable/ic_height"
             android:layout_width="match_parent"
             android:maxLength="4"
             android:layout_height="wrap_content"
