@@ -31,7 +31,7 @@ Métodos e recursos
 findViewById - Vincula componentes da interface com o código.
 Estruturas condicionais (when/ in.. ->/ else) - Determina a classificação do IMC.
 
-ContextCompat.getColor()/ setTextColor() - Obtém e aplica cores personalizadas nos texto
+ContextCompat.getColor()/ setTextColor() - Obtém e aplica cores personalizadas nos textos
 
 
 ## License
